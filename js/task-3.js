@@ -1,5 +1,4 @@
 function checkForSpam(message) {
-  const message = ["spam", "sale"];
   const res = message.includes("spam", "sale");
   if (res) {
     console.log("true");
